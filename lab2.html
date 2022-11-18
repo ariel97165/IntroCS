@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial=scale=1">
+<style>
+	body{
+		background-color: lavender;
+	}
+	h1{
+		color:purple; font-family: monospace, sans-serif,cursive;
+	}
+	#number{
+		font-weight:bold; color: lightseagreen;
+	}
+	em {  
+		font-size:30pt; font-weight: bold;
+	}
+	li{
+		font-size: 20pt;
+		background-color: lightseagreen;
+	}
+	li em{
+		font-size: 10pt;
+	}
+	.product{
+		font-size: 14pt;
+		background-color: lightcyan;
+		font-weight: bold;
+	}
+	.notproduct{
+		background-color:inherit;
+	}
+
+
+</style>
+	
+	<title>Lab</title>
+</head>
+<body>
+
+<form method = "post" action = "" >
+	<h1>Form</h1>
+	<em>for nothing</em>
+	<li>lidough<br>
+		<em>food</em></li>
+	<p class="product">darjeeling</p>
+	<li style="background-color:lightpink;" >mocha</li>
+	<label>Color:
+		<input type = "color" autofocus />
+		(Hexadecimal code suchas #ADD8E6)</label><p></p>
+	<label>Date:
+	<input type = "date"></label><p></p>
+	<label>Email:</label>
+	<input type = "email" placeholder="name@domain.com"><p></p>
+	<label id=number >Number:</label>
+	<input type = "number" min="0" max="7"><p></p>
+	<label >Range:0
+	<input type = "range" min="0" max= "20">20</label><p></p>
+	<label >Search:</label>
+	<input type = "search" placeholder="search query"><p></p>
+	<label>Time:
+	<input type = "time">(hh:mm)</label><p></p>
+	<input type = "submit" value="提交">
+	<input type = "reset" value="重設">
+
+
+
