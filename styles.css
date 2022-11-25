@@ -1,0 +1,27 @@
+body{
+    background-color: #dfc4b9; 
+    font-family: 'Times New Roman', serif, sans-serif,;color:#634f50;
+}
+h2{
+   color:#634f50; background-color: #fffaf6;
+}
+.thestu{
+   font-weight:bold; ; background-color:#efd4b7;
+}
+ch{
+   color: rgb(137, 104, 104);font-size: 16pt;
+}
+
+#topic{
+   font-weight: bold;
+}
+h2 ch{
+   color:#634f50;font-size:8pt;  ;
+}
+h3{
+   background-color:#fffaf6;
+   font-weight:bolder;
+}
+.exh3{
+   color: inherit;
+}
