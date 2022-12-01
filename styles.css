@@ -8,10 +8,18 @@
 		background-repeat: repeat-x;
 		background-position:center;
 		background-attachment: fixed;
+<<<<<<< Updated upstream
 	}
 	
 }
 
+=======
+
+	}
+	
+}
+
+>>>>>>> Stashed changes
 	.floated{
 		font-family:monospace;
 		padding:2em;
