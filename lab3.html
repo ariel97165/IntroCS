@@ -6,8 +6,28 @@
 	<title>Lab3</title>
 </head>
 <body>
-
-    <input type="button" value="button one" onClick="alert('first alert!')">
-    <input type="button" value="button two" onClick="alert('second alert!')">
-    <input type="button" value="change color!" onclick="document.body.style.backgroundColor='blue';">
+    <script>
+        var num1;
+        num1 = window.prompt("Please enter the 1st number:");
+    </script>
+    <script>
+        var num2;
+        num2 = window.prompt("Please enter the 2nd number:");
+    </script>
+    <script>
+        if (num1>num2){
+            document.body.style.backgroundColor='lightblue';
+            document.writeln(num1+">"+num2);
+        }
+        if (num1<num2){
+            document.body.style.backgroundColor='lightgreen';
+            document.writeln(num1+"<"+num2);
+        }
+        if (num1==num2){
+            document.body.style.backgroundColor='lightyellow';
+            document.writeln(num1+"="+num2);
+        }
+    </script>
+    <input type="button" value="show the first input" onClick="alert(num1)">
+    <input type="button" value="show the second input" onClick="alert(num2)">
 </body>
