@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial=scale=1">
+	<title>Lab3</title>
+</head>
+<body>
+    <script>
+        var num;
+        num = window.prompt("Please enter your guess(1-10):");
+    </script>
+    <script>
+        var ans = Math.floor((Math.random()*10)+1);
+        while (num!=ans){
+            num = window.prompt("Please enter your guess(1-10):");
+        } ;
+        document.writeln("You Got It");
+    </script>
+</body>
